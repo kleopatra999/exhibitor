@@ -1,4 +1,4 @@
-FROM mbabineau/zookeeper-exhibitor:3.4.6_1.5.5
+FROM mbabineau/zookeeper-exhibitor:latest
 MAINTAINER Israel Derdik derdik@adobe.com
 
-RUN ln -sf /dev/stdout /opt/zookeeper/zookeeper.out 
+RUN ln -sf /dev/stdout /opt/zookeeper/zookeeper.out
